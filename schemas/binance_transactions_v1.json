@@ -1,0 +1,11 @@
+{
+  "type": "struct",
+  "fields": [
+    {"name": "txn_id", "type": "long", "nullable": false},
+    {"name": "user_id", "type": "long", "nullable": false},
+    {"name": "amount", "type": "double", "nullable": false},
+    {"name": "location", "type": "string", "nullable": false},
+    {"name": "merchant_id", "type": "long", "nullable": false},
+    {"name": "timestamp", "type": "string", "nullable": false}
+  ]
+}
